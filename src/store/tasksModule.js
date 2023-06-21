@@ -12,6 +12,7 @@ const mutations = {
     UPDATE_TASK(state, { index, task }) {
         let taskIndexById = state.tasks.findIndex((task) => task.id === index);
         state.tasks[taskIndexById] = task;
+        localStorage.setItem("tasks", JSON.stringify(state.tasks));
     },
     DELETE_TASK(state, index) {
         state.tasks.splice(index, 1);
