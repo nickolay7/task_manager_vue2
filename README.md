@@ -17,3 +17,5 @@ yarn build
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## Please visit [The site](https://reliable-fudge-e52e15.netlify.app/)
